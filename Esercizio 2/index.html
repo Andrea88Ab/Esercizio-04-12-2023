@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Esercizio 2</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container text-bg-primary border rounded contForm">
+        <h1 class="text-center">Pet Form</h1>
+        <form class="text-center" id="petForm">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 col-lg-3 text-center"><label class="col-form-label" for="petName">Pet Name:</label></div>
+                <div class="col-md-4 col-lg-3"><input type="text" id="petName" required=""></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3"><label class="col-form-label" for="ownerName">Owner Name:</label></div>
+                <div class="col-md-4 col-lg-3"><input type="text" id="ownerName" required=""></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3"><label class="col-form-label" for="species">Species:</label></div>
+                <div class="col-md-4 col-lg-3"><input type="text" id="species" required=""></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3"><label class="col-form-label" for="breed">Breed:</label></div>
+                <div class="col-md-4 col-lg-3"><input type="text" id="breed" required=""></div>
+            </div><button class="btn btn-light btn-sm fs-5 fw-semibold link-primary mt-md-3 pe-md-4 ps-md-4 pb-md-2 pt-md-2 mb-md-4" type="submit">Add Pet</button>
+        </form>
+    </div>
+    <h2 class="text-center text-primary">Pet List</h2>
+    <ul class="list-unstyled text-center" id="petList"></ul>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/js.js"></script>
+</body>
+
+</html>
